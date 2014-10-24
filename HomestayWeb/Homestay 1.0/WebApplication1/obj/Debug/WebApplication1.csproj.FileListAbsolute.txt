@@ -1,0 +1,5 @@
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\HomestayWeb\Homestay 1.0\WebApplication1\bin\WebApplication1.dll
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\HomestayWeb\Homestay 1.0\WebApplication1\bin\WebApplication1.pdb
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\HomestayWeb\Homestay 1.0\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\HomestayWeb\Homestay 1.0\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\HomestayWeb\Homestay 1.0\WebApplication1\obj\Debug\WebApplication1.pdb
