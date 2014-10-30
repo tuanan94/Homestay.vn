@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e032b7ad48134cfb872377fbedcf4a38" Name="Diagram1">
+        <EntityTypeShape EntityType="HomestayModel.Booking" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.Comment" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.House" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.RatingLog" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.ScoreLog" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.User" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomestayModel.ImageSaver" Width="1.5" PointX="5.25" PointY="15.875" IsExpanded="true" />
+        <AssociationConnector Association="HomestayModel.FK_Booking_House1" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_Booking_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_Comment_House" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_Comment_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_House_User" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_ImageSaver_House" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_ValidateHouseRating_House1" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_ValidateHouseRating_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_ValidateUserScore_User2" ManuallyRouted="false" />
+        <AssociationConnector Association="HomestayModel.FK_ValidateUserScore_User3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
