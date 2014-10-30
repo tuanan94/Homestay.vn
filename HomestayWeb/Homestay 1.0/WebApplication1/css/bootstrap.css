@@ -1672,6 +1672,8 @@ input[type="range"] {
 select[multiple],
 select[size] {
   height: auto;
+  width: 400px;
+  font-size: large;
 }
 input[type="file"]:focus,
 input[type="radio"]:focus,
@@ -1689,7 +1691,7 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 120%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
