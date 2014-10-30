@@ -13,13 +13,14 @@ namespace TestDAL
             HouseManager HouseManager = new HouseManager();
             
             House hs = new House();
-            hs.Price=5;
+            hs.HouseID = 0;
+            hs.Price=56;
             hs.HouseScore = 0;
             hs.Address = "sai gon";
             hs.NORating = 0;
             hs.UserID = 0;
             hs.Detail = "sssssssssss";
-            HouseManager.House_Insert(hs);
+            HouseManager.House_Update(hs);
 
         }
     }

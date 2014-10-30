@@ -10,3 +10,15 @@ C:\Users\AnTran\Documents\GitHub\TestDAL\TestDAL\TestDAL\bin\Debug\EntityFramewo
 C:\Users\AnTran\Documents\GitHub\TestDAL\TestDAL\TestDAL\bin\Debug\HomestayDAL.pdb
 C:\Users\AnTran\Documents\GitHub\TestDAL\TestDAL\TestDAL\obj\Debug\TestDAL.exe
 C:\Users\AnTran\Documents\GitHub\TestDAL\TestDAL\TestDAL\obj\Debug\TestDAL.pdb
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\TestDAL.exe.config
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\obj\Debug\TestDAL.exe
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\obj\Debug\TestDAL.pdb
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\TestDAL.exe
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\TestDAL.pdb
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\EntityFramework.dll
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\HomestayDAL.dll
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\EntityFramework.xml
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\bin\Debug\HomestayDAL.pdb
+C:\Users\AnTran\Documents\GitHub\Homestay.vn\TestDAL\TestDAL\TestDAL\obj\Debug\TestDAL.csprojResolveAssemblyReference.cache

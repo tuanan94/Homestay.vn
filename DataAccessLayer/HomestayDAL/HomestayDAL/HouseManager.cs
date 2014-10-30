@@ -29,7 +29,17 @@ namespace HomestayDAL
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
                 House hs = HomestayEntities.Houses.First(h => h.HouseID == house.HouseID);
-                hs = house;
+                hs.UserID = house.UserID;
+                hs.Price = house.Price;
+                hs.Title = house.Title;
+                hs.Detail = house.Detail;
+                hs.Status = house.Status;
+                hs.Address = house.Address;
+                hs.AvailableDate = house.AvailableDate;
+                hs.HouseScore = house.HouseScore;
+                hs.NORating = house.NORating;
+                hs.RatingDate = house.RatingDate;
+
                 HomestayEntities.SaveChanges();
             }
             catch(Exception e){
