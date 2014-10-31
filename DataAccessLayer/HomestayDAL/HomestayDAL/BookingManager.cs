@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace HomestayDAL
 {
-    class UserManager
+    class BookingManager
     {
-        public void User_Insert(User user)
+        public void Booking_Insert(Booking book)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                HomestayEntities.Users.Add(user);
+                HomestayEntities.Bookings.Add(book);
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)
@@ -22,34 +22,33 @@ namespace HomestayDAL
                 Console.WriteLine(e.InnerException);
             }
         }
-        public void User_Update(User user)
+        public void Booking_Update(Booking book)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                User us = HomestayEntities.Users.First(u => u.UserID == user.UserID);
-                us.LastModifiedDate = DateTime.Today;
-                us.Password = user.Password;
-                us.Address = user.Address;
-                us.Phone = user.Phone;
-                us.Email = user.Email;
-                us.UserScore = user.UserScore;
-                us.ScoreDate = user.ScoreDate;
+                Booking bks = HomestayEntities.Bookings.First(bk => bk.BookingID == book.BookingID);
+                bks.UserID = book.UserID;
+                bks.HouseID = book.HouseID;
+                bks.BookingDate = book.BookingDate;
+                bks.Status = book.Status;
+                bks.StartDate = book.StartDate;
+                bks.EndDate = book.EndDate;
+
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)
             {
-
                 Console.WriteLine(e.InnerException);
             }
         }
-        public void User_Delete(User user)
+        public void Booking_Delete(Booking book)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                User us = HomestayEntities.Users.First(u => u.UserID == user.UserID);
-                HomestayEntities.Users.Remove(us);
+                Booking bks = HomestayEntities.Bookings.First(bk => bk.BookingID == book.BookingID);
+                HomestayEntities.Bookings.Remove(bks);
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)

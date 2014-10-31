@@ -28,7 +28,7 @@ namespace HomestayDAL
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
                 Comment cms = HomestayEntities.Comments.First(cm => cm.CommentID == comment.CommentID);
-                cms = comment;
+                cms.Details = comment.Details;
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)

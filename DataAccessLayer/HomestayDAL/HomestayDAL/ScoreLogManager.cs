@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace HomestayDAL
 {
-    class UserManager
+    class ScoreLogManager
     {
-        public void User_Insert(User user)
+        public void Score_Insert(ScoreLog score)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                HomestayEntities.Users.Add(user);
+                HomestayEntities.ScoreLogs.Add(score);
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)
@@ -22,19 +22,13 @@ namespace HomestayDAL
                 Console.WriteLine(e.InnerException);
             }
         }
-        public void User_Update(User user)
+        public void Score_Update(ScoreLog score)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                User us = HomestayEntities.Users.First(u => u.UserID == user.UserID);
-                us.LastModifiedDate = DateTime.Today;
-                us.Password = user.Password;
-                us.Address = user.Address;
-                us.Phone = user.Phone;
-                us.Email = user.Email;
-                us.UserScore = user.UserScore;
-                us.ScoreDate = user.ScoreDate;
+                ScoreLog scs = HomestayEntities.ScoreLogs.First(sc => sc.Score == score.Score);
+                scs = score;
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)
@@ -43,13 +37,13 @@ namespace HomestayDAL
                 Console.WriteLine(e.InnerException);
             }
         }
-        public void User_Delete(User user)
+        public void Score_Delete(ScoreLog score)
         {
             try
             {
                 HomestayEntities HomestayEntities = new HomestayEntities();
-                User us = HomestayEntities.Users.First(u => u.UserID == user.UserID);
-                HomestayEntities.Users.Remove(us);
+                ScoreLog scs = HomestayEntities.ScoreLogs.First(sc => sc.Score == score.Score);
+                HomestayEntities.ScoreLogs.Remove(scs);
                 HomestayEntities.SaveChanges();
             }
             catch (Exception e)
